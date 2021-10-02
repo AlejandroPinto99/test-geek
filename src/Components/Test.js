@@ -56,7 +56,7 @@ const Test = ({questions, title}) => {
             setGeek("Vous n'êtes pas Stresé :c")
         }
 
-        if(title === "Manipulatrice") {
+        if(title === "Manipulation") {
             if(Finalscore === 30) 
             setGeek("Vous n'êtes pas Manipultrice");
         if(Finalscore < 30 && Finalscore >= 20)
