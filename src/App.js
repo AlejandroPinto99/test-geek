@@ -162,6 +162,52 @@ const Elsy = [
   "c": "Je ne l’organise pas"
 },
 ]
+
+const Ari = [
+  {
+      "id": "1",
+      "question" : "Quand vous avez un avis? ",
+      "a": "Vous exprimez votre point de vue tout en écoutant celui de quelqu'un d'autre. ",
+      "b": "Vous l'imposez aux autres sans les écouter.",
+      "c": "Tu écoutes les autres, mais tu fais prévaloir le tien"
+  },
+  {   
+      "id": "2",
+      "question" : "Quand quelqu'un vous dit comment il voit les choses: ",
+      "a" :	"Vous lui demandez ce qu'il ressent et comment il pense qu'il est préférable d'agir.",
+      "b" :	" Vous lui dites comment ressentir, percevoir et comment agir",
+      "c" :	"Vous suggérez ce qu'il doit ressentir, percevoir et comment agir."
+
+  },
+  {   
+      "id": "3",
+      "question" : "Dans les cas où l'information est ambiguë:",
+      "a": " Des questions pour le clarifier pour vous et les autres",
+      "b": " Vous avez tendance à le faire comprendre en ma faveur",
+      "c": " Vous le transformez de telle manière qu'il vous profite face aux autres"
+  },
+  {   
+      "id": "4",
+      "question" : "Un collègue qui ne vous aime pas a fait une erreur:",
+      "a": "Vous oubliez ce qui s'est passé et si vous pouvez l'aider.",
+      "b": "Vous restez indifférent, vous ne l'aidez pas",
+      "c": "Tu profites des autres pour te moquer de lui"
+  },
+  {   
+    "id": "5",
+    "question" : "Quand quelqu'un refuse de faire ce que vous voulez:",
+    "a": "Ça me dérange, mais c'est son droit",
+    "b": " Vous faites la moue ou le menacez avec quelque chose qui fait mal",
+    "c": "Vous exprimez votre désapprobation."
+},
+{   
+  "id": "6",
+  "question" : "Si quelqu'un vous dit des informations secrètes :",
+  "a": " Tu le remercies pour le geste et tu ne le compte pas",
+  "b": "Parfois, vous pensez à l'utiliser, mais vous ne le faites presque jamais",
+  "c": "C) Vous le gardez pour en profiter quand cela vous intéresse"
+},
+]
   
   const changeTest = (name) => {
       switch(name){
@@ -170,7 +216,8 @@ const Elsy = [
           setTest(Gaby)
           break;
         case 'Ari':
-          setTitle("Gaby");
+          setTitle("Manipulation");
+          setTest(Ari);
           break;
         case 'Ale':
           setTitle("Geek");

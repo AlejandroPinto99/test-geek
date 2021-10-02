@@ -47,13 +47,24 @@ const Test = ({questions, title}) => {
 
         if(title === "Stress") {
             if(Finalscore === 20) 
-            setGeek("Super Cool");
+            setGeek("Super Stressé");
         if(Finalscore < 20 && Finalscore >= 12)
-            setGeek("Tu es Cool");
+            setGeek("Tu es Stressé");
         if(Finalscore < 12 && Finalscore >= 6)
-            setGeek("Semi-Cool");
+            setGeek("Semi-Stressé");
         if(Finalscore < 6)
-            setGeek("Vous n'êtes pas Cool :c")
+            setGeek("Vous n'êtes pas Stresé :c")
+        }
+
+        if(title === "Manipulatrice") {
+            if(Finalscore === 30) 
+            setGeek("Vous n'êtes pas Manipultrice");
+        if(Finalscore < 30 && Finalscore >= 20)
+            setGeek("Tu es Semi-Manipulatrice");
+        if(Finalscore < 20 && Finalscore >= 10)
+            setGeek("Tu es Manipulatrice");
+        if(Finalscore < 10)
+            setGeek("Super Manipulatrice :o")
         }
 
         setEnd(true);
