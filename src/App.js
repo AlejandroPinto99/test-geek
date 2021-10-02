@@ -6,6 +6,7 @@ import {useState} from 'react'
 const App = () => {
   const [title, setTitle] = useState("Geek");
   const [test, setTest] = useState();
+  const [reset, setReset] = useState(false);
 
   
 const Ale = [
@@ -105,15 +106,15 @@ const Gaby = [
       "id": "3",
       "question" : "Votre ami veut sortir mais vous avez beaucoup de travail à faire?",
       "c": "Tu t'énerves de la quantité de travail que tu as à faire",
-      "b": "Tu t'énerves de la quantité de travail que tu as à faire",
-      "a": "Tu t'énerves de la quantité de travail que tu as à faire"
+      "b": "Tu lui dis non, mais peut-être la prochaine fois.",
+      "a": "Tu sors quand même"
   },
   {   
       "id": "4",
       "question" : "Vous renversez du café sur votre travail?",
-      "c": "Vous renversez du café sur votre travail",
-      "b": "Vous renversez du café sur votre travail",
-      "a": "Vous renversez du café sur votre travail"
+      "c": "Tu renonces à le faire, t'énerve et pleure",
+      "b": "Vous réparez tout de suite ou recommencez",
+      "a": "Vous êtes frustré mais essayez de le réparer"
   },
 ]
 
@@ -260,7 +261,7 @@ const Ari = [
                 > Ale </button>
           </div>
           {
-            test ? (    <Test questions={test} title={title}/>) : null
+            test ? (    <Test questions={test} title={title} reset={reset}/>) : null
           }
         <Footer />
       </div>
