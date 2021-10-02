@@ -60,9 +60,9 @@ const Test = () => {
 
         if(Finalscore === 30) 
             setGeek("Super Geek");
-        if(Finalscore < 30 && Finalscore > 20)
+        if(Finalscore < 30 && Finalscore >= 20)
             setGeek("Geek");
-        if(Finalscore < 20 && Finalscore > 10)
+        if(Finalscore < 20 && Finalscore >= 10)
             setGeek("Semi-Geek");
         if(Finalscore < 10)
             setGeek("Pas Geek")
