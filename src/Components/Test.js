@@ -4,7 +4,7 @@ import {useState} from 'react'
 
 
 
-const Test = ({questions, title, reset}) => {
+const Test = ({questions, title}) => {
     const [end, setEnd] = useState(false);
     const [geek, setGeek] = useState("")
 

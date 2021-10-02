@@ -6,7 +6,6 @@ import {useState} from 'react'
 const App = () => {
   const [title, setTitle] = useState("Geek");
   const [test, setTest] = useState();
-  const [reset, setReset] = useState(false);
 
   
 const Ale = [
