@@ -24,15 +24,37 @@ const Test = ({questions, title}) => {
         }
 
         if(title === "Politesse") {
-            if(Finalscore === 30) 
+            if(Finalscore === 20) 
             setGeek("Super Poli");
-        if(Finalscore < 30 && Finalscore >= 20)
+        if(Finalscore < 20 && Finalscore >= 12)
             setGeek("Tu es poli");
-        if(Finalscore < 20 && Finalscore >= 10)
+        if(Finalscore < 12 && Finalscore >= 6)
             setGeek("Semi-Poli");
-        if(Finalscore < 10)
+        if(Finalscore < 6)
             setGeek("Vous n'êtes pas poli")
-    }
+        }
+
+        if(title === "Cool") {
+            if(Finalscore === 30) 
+            setGeek("Super Cool");
+        if(Finalscore < 30 && Finalscore >= 20)
+            setGeek("Tu es Cool");
+        if(Finalscore < 20 && Finalscore >= 10)
+            setGeek("Semi-Cool");
+        if(Finalscore < 10)
+            setGeek("Vous n'êtes pas Cool :c")
+        }
+
+        if(title === "Stress") {
+            if(Finalscore === 20) 
+            setGeek("Super Cool");
+        if(Finalscore < 20 && Finalscore >= 12)
+            setGeek("Tu es Cool");
+        if(Finalscore < 12 && Finalscore >= 6)
+            setGeek("Semi-Cool");
+        if(Finalscore < 6)
+            setGeek("Vous n'êtes pas Cool :c")
+        }
 
         setEnd(true);
     }

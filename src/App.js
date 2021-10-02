@@ -84,11 +84,90 @@ const Ceci = [
       "a": "Vous ne l'acceptez pas"
   },
 ]
+
+const Gaby = [
+  {
+      "id": "1",
+      "question" : "Vous voyez qu'il y a une file de 5 personnes au supermarché? ",
+      "a": "Vous les poussez à vous laisser partir en premier",
+      "b": "Tu attends ton tour",
+      "c": "Tu te fâches et tu t'en vas"
+  },
+  {   
+      "id": "2",
+      "question" : "Votre patron vous demande de faire des heures supplémentaires? ",
+      "c" :	"Tu lui crie dessus et tu quittes ton travail",
+      "b" :	"Tu le fais avec plaisir / Vous expliquez pourquoi vous ne pouvez pas",
+      "a" :	" Tu t'énerves mais tu le fais quand même"
+
+  },
+  {   
+      "id": "3",
+      "question" : "Votre ami veut sortir mais vous avez beaucoup de travail à faire?",
+      "c": "Tu t'énerves de la quantité de travail que tu as à faire",
+      "b": "Tu t'énerves de la quantité de travail que tu as à faire",
+      "a": "Tu t'énerves de la quantité de travail que tu as à faire"
+  },
+  {   
+      "id": "4",
+      "question" : "Vous renversez du café sur votre travail?",
+      "c": "Vous renversez du café sur votre travail",
+      "b": "Vous renversez du café sur votre travail",
+      "a": "Vous renversez du café sur votre travail"
+  },
+]
+
+const Elsy = [
+  {
+      "id": "1",
+      "question" : "Vos amis vous invitent à une fête, vous allez vous amuser? ",
+      "a": "Je la vais ",
+      "b": "Je ne le vais pas ",
+      "c": "Je vais à l’église"
+  },
+  {   
+      "id": "2",
+      "question" : "Il y a un nouvel album de Coldplay, vous l’écoutez et vous le dites à vos amis? ",
+      "b" :	"Tu t’achètes autre chose",
+      "c" :	"Tu ne l’achètes pas",
+      "a" :	"Tu l’achètes"
+
+  },
+  {   
+      "id": "3",
+      "question" : "Il y a un nouveau film et vous décidez d’inviter une fille. Elle accepte?",
+      "b": "Je vais avec mes amis",
+      "c": "Je ne l’invite pas",
+      "a": "Je l’invite"
+  },
+  {   
+      "id": "4",
+      "question" : "La foire est la semaine suivante. Tu invites ton frère.",
+      "a": "Tu vas avec ta copine",
+      "b": "Vous allez seul",
+      "c": "Tu vas avec ton frère"
+  },
+  {   
+    "id": "5",
+    "question" : "Vous planifiez un voyage à Cancun et rencontrez de nouvelles personnes.",
+    "a": "Je ne le planifie pas",
+    "b": "Je le planifie",
+    "c": "Je suis dans mon pays"
+},
+{   
+  "id": "6",
+  "question" : "Vous planifiez un voyage à Cancun et rencontrez de nouvelles personnes.",
+  "a": "Je l’organise",
+  "b": "Je lui achète un cadeau",
+  "c": "Je ne l’organise pas"
+},
+]
   
   const changeTest = (name) => {
       switch(name){
         case 'Gaby':
-          setTitle("Gaby");
+          setTitle("Stress");
+          setTest(Gaby)
           break;
         case 'Ari':
           setTitle("Gaby");
@@ -102,7 +181,8 @@ const Ceci = [
           setTest(Ceci)
           break;
         case 'Elsy':
-          setTitle("Gaby");
+          setTitle("Cool");
+          setTest(Elsy)
           break;
         default: 
           setTitle("");
