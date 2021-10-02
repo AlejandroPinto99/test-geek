@@ -202,7 +202,7 @@ const Elsy = [
                 <button className="p-2 px-5 bg-blue-400 hover:bg-blue-500 rounded-2xl"
                 onClick={() => changeTest("Gaby")}> Gaby </button>
                 <button className="p-2  px-5 bg-blue-400 hover:bg-blue-500 rounded-2xl" 
-                onClick={() => changeTest("Ceci")}> Elsy </button>
+                onClick={() => changeTest("Elsy")}> Elsy </button>
                 <button className="p-2  px-5 bg-blue-400 hover:bg-blue-500 rounded-2xl"
                 onClick={() => changeTest("Ceci")}> Ceci </button>
                 <button className="p-2  px-5 bg-blue-400 hover:bg-blue-500 rounded-2xl"
