@@ -205,9 +205,10 @@ const Ari = [
   "question" : "Si quelqu'un vous dit des informations secrètes :",
   "a": " Tu le remercies pour le geste et tu ne le compte pas",
   "b": "Parfois, vous pensez à l'utiliser, mais vous ne le faites presque jamais",
-  "c": "C) Vous le gardez pour en profiter quand cela vous intéresse"
+  "c": "Vous le gardez pour en profiter quand cela vous intéresse"
 },
 ]
+
   
   const changeTest = (name) => {
       switch(name){
